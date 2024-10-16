@@ -17,6 +17,11 @@ public class OperationManager : MonoBehaviour
     private bool zoomOnOff = false;
     private bool canUseXray = true;
     public bool xrayOnOff = false;
+
+    private float zoomscaleX = 1;
+    private float zoomscaleY = 1;
+    private float zoomposX = 0;
+    private float zoomposY = 1;
     
     public void EnableDisableXRAY()
     {
@@ -28,7 +33,22 @@ public class OperationManager : MonoBehaviour
     {
         if (zoomOnOff)
         {
-            dog.gameObject.transform.localScale = Vector3.Lerp(transform.localScale, transform.localScale * 2, Time.deltaTime * 10);
+            if (zoomscaleX <= 2)
+            {
+                dog.gameObject.transform.localScale = new Vector3(zoomscaleX, zoomscaleY, 1);
+                zoomscaleX += .01f;
+                zoomscaleY += .01f;
+            }
+            if (zoomposY <= 4)
+            {
+                dog.gameObject.transform.position = new Vector3(zoomposX, zoomposY, -.1f);
+                zoomposY += .05f;
+                if (zoomposX >= -.25f)
+                {
+                    zoomposX -= .01f;
+                }
+            }
+            
         }
     }
 
@@ -51,5 +71,10 @@ public class OperationManager : MonoBehaviour
             Destroy(line);
         }
         zoomOnOff = true;
+    }
+
+    public void GetSpindle()
+    {
+
     }
 }
