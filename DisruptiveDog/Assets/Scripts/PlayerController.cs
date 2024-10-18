@@ -26,6 +26,9 @@ public class PlayerController : MonoBehaviour
         if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
         {
             navigator.destination = hit.point;
+            Quaternion lookRotation = Quaternion.LookRotation(hit.point - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 1);
+
         }
     }
 }
