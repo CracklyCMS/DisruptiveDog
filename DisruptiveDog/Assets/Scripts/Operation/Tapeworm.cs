@@ -1,8 +1,9 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [RequireComponent(typeof(LineRenderer))]
-public class DynamicLineRenderer2D : MonoBehaviour
+public class Tapeworm : MonoBehaviour
 {
     private LineRenderer lineRenderer;
     private List<Vector2> points = new List<Vector2>(); // Store points in 2D space
@@ -60,30 +61,52 @@ public class DynamicLineRenderer2D : MonoBehaviour
         lineRenderer.SetPositions(positions);
     }
 
+    // Method to remove the first point (FIFO) from the LineRenderer and the list of transforms
+    public void RemoveFirstPoint()
+    {
+        // Check if there are any points to remove
+        if (points.Count > 0)
+        {
+            pointTransforms[0] = pointTransforms[2];
+            pointTransforms[1] = pointTransforms[2];
+            // Update the LineRenderer after removing the first point
+            UpdateLineRendererPositions();
+        }
+        else
+        {
+            Debug.LogWarning("No points left to remove.");
+        }
+    }
+
     // Method to continuously update the LineRenderer points to follow the transforms
     private void UpdateLineRendererPositions()
     {
         // Create an array to store updated positions
-        Vector3[] positions = new Vector3[pointTransforms.Length];
+        Vector3[] positions = new Vector3[points.Count];
 
         // Loop through each transform and update the corresponding position
-        for (int i = 0; i < pointTransforms.Length; i++)
+        for (int i = 0; i < points.Count; i++)
         {
             Vector3 position = pointTransforms[i].position;
             positions[i] = new Vector3(position.x, position.y, -.25f); // Ensure the z position is 0 for 2D
         }
 
         // Update the LineRenderer with the new positions
+        lineRenderer.positionCount = points.Count;
         lineRenderer.SetPositions(positions);
     }
 
     // Example to add points manually via mouse click in 2D space (optional for testing)
     void Update()
     {
-        UpdateLineRendererPositions();
-        if (Input.GetMouseButtonDown(0)) // Left-click to add a point
-        {
-            AddNextPointFromTransforms();
-        }
+        //if (Input.GetMouseButtonDown(0)) // Left-click to add a point
+        //{
+        //    AddNextPointFromTransforms();
+        //}
+        //if (Input.GetMouseButtonDown(1))
+        //{
+        //    RemoveFirstPoint();
+        //    print(points.Count);
+        //}
     }
 }
