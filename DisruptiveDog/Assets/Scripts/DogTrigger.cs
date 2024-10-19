@@ -15,8 +15,8 @@ public class DogTrigger : MonoBehaviour
     {
         if(GameManager.actNum != 2)
         {
-            SceneManager.LoadScene("Operation");
             GameManager.actNum = 2;
+            SceneManager.LoadScene("Operation");
         }
     }
 }
