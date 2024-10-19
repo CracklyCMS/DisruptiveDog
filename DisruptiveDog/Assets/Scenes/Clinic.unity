@@ -12510,6 +12510,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 624261506}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &453749926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
+  m_PrefabInstance: {fileID: 1870988296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &456960400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13588,6 +13593,11 @@ Transform:
   - {fileID: 1481375884}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &666435788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f599ec4ff91e9894cb7e026b819f9dbc, type: 3}
+  m_PrefabInstance: {fileID: 1225989386}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &686614272
 Mesh:
   m_ObjectHideFlags: 0
@@ -21984,6 +21994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: nurseFinalforreal@Dwarf Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f599ec4ff91e9894cb7e026b819f9dbc, type: 3}
+      propertyPath: m_TagString
+      value: Nurse1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25839,6 +25853,9 @@ MonoBehaviour:
   player: {fileID: 792392446}
   cam1: {fileID: 1818687991}
   cam2: {fileID: 771932393}
+  nurse1: {fileID: 666435788}
+  nurse2: {fileID: 453749926}
+  dogTrigger: {fileID: 1094215559}
   actNum: 1
 --- !u!4 &1764488425
 Transform:
@@ -26062,6 +26079,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_Name
       value: nurseFinalforreal@Terrified
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
+      propertyPath: m_TagString
+      value: Nurse2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

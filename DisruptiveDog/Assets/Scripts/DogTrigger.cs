@@ -8,6 +8,5 @@ public class DogTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("Operation");
-        Destroy(gameObject);
     }
 }
