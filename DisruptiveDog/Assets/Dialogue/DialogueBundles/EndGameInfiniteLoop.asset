@@ -10,16 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6550161ea1a834386a831f6a8daca8, type: 3}
-  m_Name: Dialogue4
+  m_Name: EndGameInfiniteLoop
   m_EditorClassIdentifier: 
   Messages:
   - CharacterName: Technician
-    MessageText: 'No part of this life feels right. '
-  - CharacterName: Technician
-    MessageText: "Who\u2019s job am I really doing?"
-  - CharacterName: Technician
-    MessageText: Because it doesn't feel like mine.
-  - CharacterName: Technician
     MessageText: I will have to think about it in the euth room...
   BlackOutScreen: 1
-  FollowUp: {fileID: 11400000, guid: fa03a8c2eafcf9e4397440c5cfc8760b, type: 2}
+  FollowUp: {fileID: 11400000}

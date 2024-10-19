@@ -34,6 +34,7 @@ public class DialogueFeed : MonoBehaviour
     string m_currCharName;
     string m_currMessage;
 
+
     void Awake()
     {
         CloseDialogue();
@@ -66,15 +67,25 @@ public class DialogueFeed : MonoBehaviour
         DialoguePanel.gameObject.SetActive(false);
     }
 
-    public void NextMessage()
+    public void NextMessage(InputAction.CallbackContext context)
     {
+        if (!context.started)
+            return;
+
         m_messageIndex++;
 
         // Close if no more messages
         if (m_messageIndex >= DialogueBundle.MessageCount)
         {
-            CloseDialogue();
-            return;
+            if (DialogueBundle.FollowUp != null)
+            {
+                StartDialogue(DialogueBundle.FollowUp);
+            }
+            else
+            {
+                CloseDialogue();
+                return;
+            }
         }
 
         SetMessage(DialogueBundle.GetMessage(m_messageIndex));

@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
     public GameObject nurse1;
     public GameObject nurse2;
     public GameObject dogTrigger;
-    public DialogueMessageBundle messageBundle;
+    public DialogueMessageBundle IntroMessageBundle;
+    public DialogueMessageBundle ScaredNurseMessageBundle;
 
     public int actNum = 1;
 
@@ -55,13 +56,17 @@ public class GameManager : MonoBehaviour
             nav.enabled = true;
             cam1.enabled = !cam1.enabled;
             cam2.enabled = !cam2.enabled;
+
+
+            Debug.Assert(ScaredNurseMessageBundle != null, "");
+            DialogueFeed feed = DialogueFeed.Get();
+            feed.StartDialogue(ScaredNurseMessageBundle);
         }
         else
         {
-
-            Debug.Assert(messageBundle != null, "");
+            Debug.Assert(IntroMessageBundle != null, "");
             DialogueFeed feed = DialogueFeed.Get();
-            feed.StartDialogue(messageBundle);
+            feed.StartDialogue(IntroMessageBundle);
         }
     }
 

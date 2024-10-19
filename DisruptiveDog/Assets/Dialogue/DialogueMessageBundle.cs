@@ -19,6 +19,9 @@ public class DialogueMessageBundle : ScriptableObject
     [SerializeField]
     public bool BlackOutScreen = false;
 
+    [SerializeReference]
+    public DialogueMessageBundle FollowUp;
+
     public int MessageCount
     {
         get { return Messages.Length; }

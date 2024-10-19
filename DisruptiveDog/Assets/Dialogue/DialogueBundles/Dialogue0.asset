@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogue0
   m_EditorClassIdentifier: 
   Messages:
-  - CharacterName: Technician
+  - CharacterName: Technician  (Press Space to Progress Dialogue)
     MessageText: Its my day off but my boss called me into work
   - CharacterName: Technician
     MessageText: She said she needed help with a patient.
@@ -22,3 +22,4 @@ MonoBehaviour:
   - CharacterName: Technician
     MessageText: 'Fuck. '
   BlackOutScreen: 1
+  FollowUp: {fileID: 0}

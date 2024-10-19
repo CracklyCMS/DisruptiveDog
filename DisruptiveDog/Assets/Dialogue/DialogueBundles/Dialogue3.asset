@@ -36,3 +36,5 @@ MonoBehaviour:
     MessageText: But that's my other day off.
   - CharacterName: Doctor
     MessageText: I know.
+  BlackOutScreen: 0
+  FollowUp: {fileID: 11400000, guid: f6531f820ededed40aacf42cc4704e4a, type: 2}

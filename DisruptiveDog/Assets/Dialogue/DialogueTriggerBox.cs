@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogueTriggerBox : MonoBehaviour
 {
     public DialogueMessageBundle BundleToTrigger;
     public DialogueTriggerBox[] PrerequisiteTriggers;
+    public int MinimumAct = 0;
 
     public bool AlreadyTriggered
     {
@@ -30,6 +32,13 @@ public class DialogueTriggerBox : MonoBehaviour
     {
         if (m_burned)
             return;
+
+        GameManager GameManager = GameObject.FindFirstObjectByType<GameManager>();
+        if (GameManager.actNum < MinimumAct)
+        {
+            Debug.Log("Minimum act not met");
+            return;
+        }
 
         foreach (DialogueTriggerBox trigger in PrerequisiteTriggers)
         {

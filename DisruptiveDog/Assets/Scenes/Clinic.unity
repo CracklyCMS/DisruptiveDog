@@ -3971,6 +3971,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e4048cc3eaa86084e91162323ec37a4b, type: 3}
   m_PrefabInstance: {fileID: 784019566}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &347648775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 428480085}
+    m_Modifications:
+    - target: {fileID: 3075316639927127994, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_Name
+      value: NurseDialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3278685
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5633475
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.0271
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.152
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.088
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
 --- !u!1001 &361467984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10000,6 +10065,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 992219257}
+  - {fileID: 513473252}
   - {fileID: 938179006}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12723,6 +12789,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 649918735}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &513473252 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3212131009357525507, guid: d6b1889c35e14264d8e5040fadec3252, type: 3}
+  m_PrefabInstance: {fileID: 347648775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &539248135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18133,8 +18204,9 @@ GameObject:
   - component: {fileID: 938179006}
   - component: {fileID: 938179005}
   - component: {fileID: 938179004}
+  - component: {fileID: 938179007}
   m_Layer: 0
-  m_Name: Dialogue1Trigger
+  m_Name: BossDialogueTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18178,12 +18250,27 @@ Transform:
   m_GameObject: {fileID: 938179003}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8274231, y: -0.2397058, z: 2.6236043}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.3282, y: -2.85, z: -0.62}
+  m_LocalScale: {x: 2.8596783, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 428480085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938179007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938179003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d04e323ddc2ab746bfbc2251d1f708b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BundleToTrigger: {fileID: 11400000, guid: 961828b6f41a4b0489a612bfbab38c9a, type: 2}
+  PrerequisiteTriggers: []
+  MinimumAct: 2
 --- !u!1 &956802678
 GameObject:
   m_ObjectHideFlags: 0
@@ -25800,7 +25887,8 @@ MonoBehaviour:
   nurse1: {fileID: 666435788}
   nurse2: {fileID: 453749926}
   dogTrigger: {fileID: 1094215559}
-  messageBundle: {fileID: 11400000, guid: 63fed15fc41c1994ba55ea349d5e081d, type: 2}
+  IntroMessageBundle: {fileID: 11400000, guid: 63fed15fc41c1994ba55ea349d5e081d, type: 2}
+  ScaredNurseMessageBundle: {fileID: 11400000, guid: 9ddbd39d23ac759478d70d9f89a38da8, type: 2}
   actNum: 1
 --- !u!4 &1764488425
 Transform:
