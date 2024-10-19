@@ -24,7 +24,7 @@ public class HeartEffect : MonoBehaviour
     {
         if(isActive && heart.transform.localPosition.y <= -100)
         {
-            heart.transform.localPosition = new Vector3(145, yPosition, 0);
+            heart.transform.localPosition = new Vector3(140, yPosition, 0);
             heart.color = new Color(1, 0, 0, alpha);
             yPosition += 1;
             alpha -= .005f;
