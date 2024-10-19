@@ -187,6 +187,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 669e3d94ce81d9e4aafd59e21263d26a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a4ec01362edb8f348ade7ef2cb90f908, type: 2}
     - target: {fileID: 919132149155446097, guid: 669e3d94ce81d9e4aafd59e21263d26a, type: 3}
       propertyPath: m_Name
       value: Sofa 1
@@ -1133,6 +1137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 34965c8fe6c0e4e43ac0da1229354abe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056662c7eef1f89408fb92890649c3ad, type: 2}
     - target: {fileID: 919132149155446097, guid: 34965c8fe6c0e4e43ac0da1229354abe, type: 3}
       propertyPath: m_Name
       value: PC Monitor (1)
@@ -4096,6 +4104,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ff11e3ab5ff173a4294ea92b1a32bee0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5380e8e8be0d30c44a36b3891efc3939, type: 2}
     - target: {fileID: 919132149155446097, guid: ff11e3ab5ff173a4294ea92b1a32bee0, type: 3}
       propertyPath: m_Name
       value: cupboard_bottom (1)
@@ -12641,6 +12653,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e34bd696be6e7254ba420b9352c691d5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f77ff5f6f9d6eac4eb642223f18f8c1e, type: 2}
     - target: {fileID: 919132149155446097, guid: e34bd696be6e7254ba420b9352c691d5, type: 3}
       propertyPath: m_Name
       value: bed_2
@@ -12854,6 +12870,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e4048cc3eaa86084e91162323ec37a4b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5380e8e8be0d30c44a36b3891efc3939, type: 2}
     - target: {fileID: 919132149155446097, guid: e4048cc3eaa86084e91162323ec37a4b, type: 3}
       propertyPath: m_Name
       value: cupboard_top
@@ -15479,6 +15499,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e4048cc3eaa86084e91162323ec37a4b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5380e8e8be0d30c44a36b3891efc3939, type: 2}
     - target: {fileID: 919132149155446097, guid: e4048cc3eaa86084e91162323ec37a4b, type: 3}
       propertyPath: m_Name
       value: cupboard_top (1)
@@ -18913,6 +18937,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 95decf6dd14bb6b4281ff28c3c990977, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f77ff5f6f9d6eac4eb642223f18f8c1e, type: 2}
     - target: {fileID: 919132149155446097, guid: 95decf6dd14bb6b4281ff28c3c990977, type: 3}
       propertyPath: m_Name
       value: Table
@@ -21693,6 +21721,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 34965c8fe6c0e4e43ac0da1229354abe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f77ff5f6f9d6eac4eb642223f18f8c1e, type: 2}
     - target: {fileID: 919132149155446097, guid: 34965c8fe6c0e4e43ac0da1229354abe, type: 3}
       propertyPath: m_Name
       value: PC Monitor
@@ -22534,6 +22566,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ff11e3ab5ff173a4294ea92b1a32bee0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5380e8e8be0d30c44a36b3891efc3939, type: 2}
     - target: {fileID: 919132149155446097, guid: ff11e3ab5ff173a4294ea92b1a32bee0, type: 3}
       propertyPath: m_Name
       value: cupboard_bottom
@@ -22613,6 +22649,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4b7f08e0a119614b944c9bdfc3244d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f77ff5f6f9d6eac4eb642223f18f8c1e, type: 2}
     - target: {fileID: 919132149155446097, guid: f4b7f08e0a119614b944c9bdfc3244d8, type: 3}
       propertyPath: m_Name
       value: machine_2
@@ -23461,7 +23501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a108c51d0f2cad4389cd123d2163590, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 100.14271
+      value: 100.169
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a108c51d0f2cad4389cd123d2163590, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23495,6 +23535,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9a108c51d0f2cad4389cd123d2163590, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f77ff5f6f9d6eac4eb642223f18f8c1e, type: 2}
     - target: {fileID: 919132149155446097, guid: 9a108c51d0f2cad4389cd123d2163590, type: 3}
       propertyPath: m_Name
       value: tray_2
@@ -23663,6 +23707,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4e7b0183f6da61443bb0839d9fac73a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056662c7eef1f89408fb92890649c3ad, type: 2}
     - target: {fileID: 919132149155446097, guid: 4e7b0183f6da61443bb0839d9fac73a7, type: 3}
       propertyPath: m_Name
       value: Modern Shelves
@@ -25485,6 +25533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: overhead_light
       objectReference: {fileID: 0}
+    - target: {fileID: 5919740756589224101, guid: 7ddcf67e4f83b7f4895c143b4c0e65cb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056662c7eef1f89408fb92890649c3ad, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25571,7 +25623,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 44d8929607402444a92962feeb8bbe0d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.62798
+      value: 39.457
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 44d8929607402444a92962feeb8bbe0d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25609,6 +25661,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 44d8929607402444a92962feeb8bbe0d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f77ff5f6f9d6eac4eb642223f18f8c1e, type: 2}
     - target: {fileID: 919132149155446097, guid: 44d8929607402444a92962feeb8bbe0d, type: 3}
       propertyPath: m_Name
       value: PC Keyboard
@@ -25678,6 +25734,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1d7462e9da23f6a438755a266c402746, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 056662c7eef1f89408fb92890649c3ad, type: 2}
     - target: {fileID: 919132149155446097, guid: 1d7462e9da23f6a438755a266c402746, type: 3}
       propertyPath: m_Name
       value: tray_1
@@ -33333,6 +33393,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: cda1f5fc6168eb347bcf5c0e86f2dd87, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5380e8e8be0d30c44a36b3891efc3939, type: 2}
     - target: {fileID: 919132149155446097, guid: cda1f5fc6168eb347bcf5c0e86f2dd87, type: 3}
       propertyPath: m_Name
       value: Desk
