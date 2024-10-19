@@ -55,6 +55,10 @@ public class DialogueFeed : MonoBehaviour
         SetMessage(DialogueBundle.GetMessage(m_messageIndex));
 
         DialoguePanel.gameObject.SetActive(true);
+        if (bundle.BlackOutScreen)
+            DialoguePanel.color = new Color(0, 0, 0, 1);
+        else
+            DialoguePanel.color = new Color(0, 0, 0, 0);
     }
 
     public void CloseDialogue()

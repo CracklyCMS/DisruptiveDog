@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6550161ea1a834386a831f6a8daca8, type: 3}
+  m_Name: Dialogue1
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Nurse
+    MessageText: Hey, the patient is in the operating room next door. And guess what?
+  - CharacterName: Technician
+    MessageText: What.
+  - CharacterName: Nurse
+    MessageText: Its HER dog.
+  - CharacterName: Technician
+    MessageText: "You\u2019re kidding."
+  - CharacterName: Nurse
+    MessageText: Yeah she said one of us has to take care of it.
+  - CharacterName: Nurse
+    MessageText: 'But you remember when I watched her parrot. '
+  - CharacterName: Technician
+    MessageText: 'That is not even remotely the same but fine, I guess. '
+  - CharacterName: Nurse
+    MessageText: Yeah. looks like he just ate something bad.

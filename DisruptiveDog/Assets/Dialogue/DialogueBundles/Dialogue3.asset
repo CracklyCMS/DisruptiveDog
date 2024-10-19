@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6550161ea1a834386a831f6a8daca8, type: 3}
+  m_Name: Dialogue3
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Technician
+    MessageText: "So your dog\u2026"
+  - CharacterName: Doctor
+    MessageText: Yeah he ate another ball or something. Did you give him a laxative
+      like last time?
+  - CharacterName: Technician
+    MessageText: 'There was a giant tapeworm in your dog. '
+  - CharacterName: Technician
+    MessageText: The largest I have ever seen.
+  - CharacterName: Doctor
+    MessageText: Okay.
+  - CharacterName: Technician
+    MessageText: Yeah his symptoms must have been bad for some time. Did you-
+  - CharacterName: Doctor
+    MessageText: But hes fine now right?
+  - CharacterName: Technician
+    MessageText: Yes
+  - CharacterName: Doctor
+    MessageText: Great, you can go home now. See you tomorrow.
+  - CharacterName: Technician
+    MessageText: But that's my other day off.
+  - CharacterName: Doctor
+    MessageText: I know.

@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6550161ea1a834386a831f6a8daca8, type: 3}
-  m_Name: IntroDialogue
+  m_Name: Dialogue4
   m_EditorClassIdentifier: 
   Messages:
-  - CharacterName: Danny
-    MessageText: Hey haru please make a dialogue system
-  - CharacterName: Haru
-    MessageText: like this?
-  - CharacterName: Danny
-    MessageText: 
-  - CharacterName: Danny
-    MessageText: ehmm... well it's good enough
+  - CharacterName: Technician
+    MessageText: 'No part of this life feels right. '
+  - CharacterName: Technician
+    MessageText: "Who\u2019s job am I really doing?"
+  - CharacterName: Technician
+    MessageText: Because it doesn't feel like mine.
+  - CharacterName: Technician
+    MessageText: I will have to think about it in the euth room

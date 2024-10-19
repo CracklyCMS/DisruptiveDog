@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6550161ea1a834386a831f6a8daca8, type: 3}
+  m_Name: dialogue2
+  m_EditorClassIdentifier: 
+  Messages:
+  - CharacterName: Nurse
+    MessageText: OH MY GOD WHAT THE FUCK?
+  - CharacterName: Technition
+    MessageText: "This is just\u2026"
+  - CharacterName: Nurse
+    MessageText: I THINK I AM GONNA THROW UP.
+  - CharacterName: Technition
+    MessageText: Does that mean I have to tell the boss?
+  - CharacterName: Nurse
+    MessageText: WHAT DO YOU THINK
+  - CharacterName: Technition
+    MessageText: Of course, dear.
