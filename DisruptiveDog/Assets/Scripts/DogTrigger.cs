@@ -5,8 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class DogTrigger : MonoBehaviour
 {
+    public GameManager GameManager;
+
+    private void Start()
+    {
+        GameManager = GameObject.FindFirstObjectByType<GameManager>();
+    }
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Operation");
+        if(GameManager.actNum != 2)
+        {
+            SceneManager.LoadScene("Operation");
+            GameManager.actNum = 2;
+        }
     }
 }
