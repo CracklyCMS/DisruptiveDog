@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject nurse1;
     public GameObject nurse2;
     public GameObject dogTrigger;
+    public DialogueMessageBundle messageBundle;
 
     public int actNum = 1;
 
@@ -54,6 +55,13 @@ public class GameManager : MonoBehaviour
             nav.enabled = true;
             cam1.enabled = !cam1.enabled;
             cam2.enabled = !cam2.enabled;
+        }
+        else
+        {
+
+            Debug.Assert(messageBundle != null, "");
+            DialogueFeed feed = DialogueFeed.Get();
+            feed.StartDialogue(messageBundle);
         }
     }
 
