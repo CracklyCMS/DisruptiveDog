@@ -19673,6 +19673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: theDoneDoctor@Typing
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 14d8ece94756cef4b9e9bb29c288af39, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6c081477c9d499f4faf69de7abd48dd8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 14d8ece94756cef4b9e9bb29c288af39, type: 3}
@@ -22061,6 +22065,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Nurse1
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: f599ec4ff91e9894cb7e026b819f9dbc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 816164fd5dd8682449f9926972cf6fe0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26131,19 +26139,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.71
+      value: 9.635885
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.19575
+      value: 0.441
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.49
+      value: -7.4096045
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.950178
+      value: 0.590737
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalRotation.x
@@ -26151,7 +26159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.31170776
+      value: 0.80686426
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalRotation.z
@@ -26163,7 +26171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 36.324
+      value: 107.581
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -26181,6 +26189,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Nurse2
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 8fce0b39cbebf8a4a9b5634891a55eb5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7c84cf88cde59be45a3c3ec7618552f3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
