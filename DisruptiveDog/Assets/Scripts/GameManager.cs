@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
         cam2 = GameObject.Find("Cam3").GetComponent<Camera>();
         nurse1 = GameObject.FindGameObjectWithTag("Nurse1");
         nurse2 = GameObject.FindGameObjectWithTag("Nurse2");
+        dogTrigger = GameObject.Find("DogTrigger");
         nurse2.SetActive(false);
         if (actNum == 2)
         {
@@ -53,10 +54,6 @@ public class GameManager : MonoBehaviour
             nav.enabled = true;
             cam1.enabled = !cam1.enabled;
             cam2.enabled = !cam2.enabled;
-        }
-        else
-        {
-            actNum = 2;
         }
     }
 
