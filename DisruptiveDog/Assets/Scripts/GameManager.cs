@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject nurse1;
     public GameObject nurse2;
     public GameObject dogTrigger;
+    public DialogueMessageBundle introMessage;
 
     public int actNum = 1;
 
@@ -57,6 +58,9 @@ public class GameManager : MonoBehaviour
         else
         {
             actNum = 2;
+            Debug.Assert(introMessage != null, "");
+            DialogueFeed feed = DialogueFeed.Get();
+            feed.StartDialogue(introMessage);
         }
     }
 
