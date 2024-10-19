@@ -21,7 +21,6 @@ public class OperationManager : MonoBehaviour
     public Stitch[] allStitches;
     private int stitchIndex;
 
-
     private bool zoomOnOff = false;
     private bool canUseXray = true;
     public bool xrayOnOff = false;

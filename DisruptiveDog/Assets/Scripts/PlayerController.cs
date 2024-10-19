@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(navigator.velocity);
         if(Mathf.Abs(navigator.velocity.x) >= 1f || Mathf.Abs(navigator.velocity.z) >= 1f)
         {
             animator.SetBool("isWalking", true);
